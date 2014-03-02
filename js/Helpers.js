@@ -25,5 +25,18 @@ Helpers = {
 	frameRange: function(length, row, cols) {
 		var offset = row * cols;
 		return this.range(offset, length + offset);
+	},
+
+	createKeys: function(game) {
+		return {
+			up: game.input.keyboard.addKey(Phaser.Keyboard.UP),
+			left: game.input.keyboard.addKey(Phaser.Keyboard.LEFT),
+			down: game.input.keyboard.addKey(Phaser.Keyboard.DOWN),
+			right: game.input.keyboard.addKey(Phaser.Keyboard.RIGHT),
+			w: game.input.keyboard.addKey(Phaser.Keyboard.W),
+			a: game.input.keyboard.addKey(Phaser.Keyboard.A),
+			s: game.input.keyboard.addKey(Phaser.Keyboard.S),
+			d: game.input.keyboard.addKey(Phaser.Keyboard.D)
+		};
 	}
 };

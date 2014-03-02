@@ -1,0 +1,50 @@
+{
+	"id": "will_combat",
+	"width": 100,
+	"height": 100,
+	"cols": 5,
+	"rows": 7,
+	"animations": {
+		"idle": {
+			"length": 2,
+			"row": 0,
+			"speed": 2
+		},
+		"swing": {
+			"length": 4,
+			"row": 1,
+			"speed": 4,
+			"loop": false
+		},
+		"cast": {
+			"length": 2,
+			"row": 2,
+			"speed": 3,
+			"loop": false
+		},
+		"hurt": {
+			"length": 5,
+			"row": 3,
+			"speed": 7,
+			"loop": false
+		},
+		"consume": {
+			"length": 4,
+			"row": 4,
+			"speed": 3,
+			"loop": false
+		},
+		"defend": {
+			"length": 3,
+			"row": 5,
+			"speed": 3,
+			"loop": false
+		},
+		"die": {
+			"length": 3,
+			"row": 6,
+			"speed": 2,
+			"loop": false
+		}
+	}
+}

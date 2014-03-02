@@ -1,19 +1,20 @@
 {
-	"id": "Will",
+	"id": "will",
 	"width": 53,
 	"height": 80,
 	"cols": 4,
 	"rows": 2,
 	"animations": {
-		"walk": {
-			"length": 4,
-			"row": 0,
-			"speed": 3
-		},
 		"idle": {
 			"length": 2,
-			"row": 1,
+			"row": 0,
 			"speed": 2
+		},
+		"walk": {
+			"length": 4,
+			"row": 1,
+			"speed": 3
 		}
+
 	}
 }

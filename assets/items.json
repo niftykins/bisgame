@@ -1,0 +1,40 @@
+{
+	"id": "items",
+	"width": 38,
+	"height": 38,
+	"cols": 5,
+	"items": {
+		"potion_health": {
+			"row": 0,
+			"pos": 0
+		},
+		"potion_mana": {
+			"row": 0,
+			"pos": 1
+		},
+		"potion_rejuvenation": {
+			"row": 0,
+			"pos": 2
+		},
+		"magic_fire": {
+			"row": 1,
+			"pos": 0
+		},
+		"magic_ice": {
+			"row": 1,
+			"pos": 1
+		},
+		"magic_dark": {
+			"row": 1,
+			"pos": 2
+		},
+		"magic_earth": {
+			"row": 1,
+			"pos": 3
+		},
+		"magic_lightning": {
+			"row": 1,
+			"pos": 4
+		}
+	}
+}
